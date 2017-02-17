@@ -3,7 +3,7 @@
 
 1. 在项目中导入`SDWebImage`
 2. 将`LRCycleScrollView`文件夹拖入到项目中
-3. 导入 \"LRCycleScrollView.h\"。
+3. 导入 `"LRCycleScrollView.h"`
 
 使用
 =========
