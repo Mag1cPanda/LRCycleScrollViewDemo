@@ -3,9 +3,9 @@
 1. 在项目中导入`SDWebImage`
 2. 将`LRCycleScrollView`文件夹拖入到项目中
 3. 导入 \"LRCycleScrollView.h\"。
-============
 
 #使用
+=========
 ```objective-c
     LRCycleScrollView *cycleScrollView = [LRCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 200)         placeholderImage:[UIImage imageNamed:@"slide_img"]];
     cycleScrollView.delegate = self;
