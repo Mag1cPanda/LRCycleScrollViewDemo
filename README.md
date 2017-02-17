@@ -1,12 +1,12 @@
-#安装
----------
+安装
+=========
 
 1. 在项目中导入`SDWebImage`
 2. 将`LRCycleScrollView`文件夹拖入到项目中
 3. 导入 \"LRCycleScrollView.h\"。
 
-#使用
----------
+使用
+=========
 
 ```objective-c
     LRCycleScrollView *cycleScrollView = [LRCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 200)         placeholderImage:[UIImage imageNamed:@"slide_img"]];
@@ -51,4 +51,5 @@
                                     @"http://p1.bqimg.com/567571/ccb99ecef6f67ba0.jpg"];
     
 ```
-#API
+API
+=========
