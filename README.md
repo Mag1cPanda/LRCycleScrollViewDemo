@@ -1,13 +1,13 @@
 #安装
 =========
-1.在项目中导入`SDWebImage`
-2.将`LRCycleScrollView`文件夹拖入到项目中
-3.在ViewController中`#import "LRCycleScrollView.h"`
+1. 在项目中导入`SDWebImage`
+2. 将`LRCycleScrollView`文件夹拖入到项目中
+3. 在ViewController中`#import "LRCycleScrollView.h"`
 ============
 
 #使用
 ```objective-c
-LRCycleScrollView *cycleScrollView = [LRCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 200) placeholderImage:[UIImage imageNamed:@"slide_img"]];
+    LRCycleScrollView *cycleScrollView = [LRCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 200)         placeholderImage:[UIImage imageNamed:@"slide_img"]];
     cycleScrollView.delegate = self;
     cycleScrollView.pageControlStyle = LRPageContolStyleAnimated;
     cycleScrollView.currentPageDotImage = [UIImage imageNamed:@"slide_navon"];
